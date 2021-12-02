@@ -58,11 +58,12 @@
 
 //***************actors****************//
 
-.actors_card {
+.actors__card {
     font-size: 0.8vw;
     color: white;
+
     @media (max-width: $tablet) {
-        width: 30%;
+        font-size: 1.3vw;
     }
 
     @media (max-width: $smartphone) {

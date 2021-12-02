@@ -16,30 +16,30 @@
     }
 }
 
-.actors_card {
+.actors__card {
     width: 25%;
-    margin: 0.1%;
+    margin: 0.3%;
     text-align: center;
-    margin-bottom: 1%;
 
-    & img {
-        width: 90%;
+    & .actors__img {
+        width: 80%;
     }
 
-    & figcaption {
+    & .actors__figcaption {
         font-weight: bolder;
     }
 
-    & p {
+    & .actors__p {
         width: 80%;
         margin: auto;
     }
 
     @media (max-width: $tablet) {
-        width: 30%;
+        width: 45%;
     }
 
     @media (max-width: $smartphone) {
-        width: 90%;
+        width: 100%;
+        margin-bottom: 5%;
     }
 }

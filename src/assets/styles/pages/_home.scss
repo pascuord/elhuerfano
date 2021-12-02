@@ -9,6 +9,15 @@
   height: 60vh;
   padding: 1%;
   float: left;
+
+  @media (max-width: $tablet) {
+    height: 69vh;
+  }
+
+  @media (max-width: $smartphone) {
+    height: 62vh;
+  }
+
 }
 
 .header {
@@ -37,29 +46,25 @@
   width: 33%;
   padding: 1%;
 
-  & ul {
+  & .nav__ul {
     width: 100%;
     padding-left: 33%;
 
     @media (max-width: $tablet) {
-      padding-left: 55%;
+      padding-left: 70%;
     }
 
     @media (max-width: $smartphone) {
-      padding-left: 18%;
+      padding-left: 40%;
     }
   }
 
-  & li {
+  & .nav__item {
     display: inline;
     margin-right: 5%;
-
-    @media (max-width: $smartphone) {
-      margin-right: 0;
-    }
   }
 
-  & a {
+  & .nav__link{
     text-decoration: none;
   }
 }
@@ -81,7 +86,7 @@ body {
 }
 
 .content {
-  & .content_p {
+  & .content__p {
     width: 33%;
     text-align: justify;
     position: absolute;
