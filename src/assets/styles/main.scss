@@ -9,8 +9,8 @@
  * 
  */
 
-@import "bootstrap/scss/bootstrap";
-@import "../../../node_modules/@fortawesome/fontawesome-free/css/all.css";
+ @import "bootstrap/scss/bootstrap";
+ @import "../../../node_modules/@fortawesome/fontawesome-free/css/all.css";
 
 
 /**
@@ -21,6 +21,14 @@
 @import "pages/actors";
 @import "pages/article";
 @import "pages/galery";
+
+/**
+ * Import layouts
+ */
+ @import "layouts/header";
+ @import "layouts/nav";
+ @import "layouts/footer";
+
 
 /*
  *  Import base files
