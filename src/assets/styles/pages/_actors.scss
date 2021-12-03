@@ -10,7 +10,7 @@
     background-image: none;
 }
 
-.main-actors{
+.main-actors {
     @media (max-width: $smartphone) {
         height: auto;
     }
@@ -23,6 +23,16 @@
 
     & .actors__img {
         width: 80%;
+        height: 161px;
+        object-fit: cover;
+        object-position: 100% 0px;
+
+        @media (max-width: $tablet) {
+            height: 123px;
+        }
+        @media (max-width: $smartphone) {
+            height: 126px;
+        }
     }
 
     & .actors__figcaption {
